@@ -21,60 +21,62 @@ Log4j
 
 Git
 
+```bash
+
+
 apiAutoFramework
 │
 ├── src
-│
-├── main
-│   ├── java
-│   └── resources
-│
-├── test
-│   ├── java
+│   ├── main
+│   │   ├── java
+│   │   └── resources
 │   │
-│   └── com.electrolab.api
-│        │
-│        ├── base
-│        │     ├── ScenarioContext.java
-│        │     └── TestContext.java
-│        │
-│        ├── config
-│        │     ├── ConfigManager.java
-│        │     └── Environment.java
-│        │
-│        ├── hooks
-│        │     └── Hooks.java
-│        │
-│        ├── managers
-│        │     ├── ApiManager.java
-│        │     └── TokenManager.java
-│        │
-│        ├── mock
-│        │     ├── MockServer.java
-│        │     └── UserMock.java
-│        │
-│        ├── models
-│        │     ├── AuthResponse.java
-│        │     └── User.java
-│        │
-│        ├── runners
-│        │     └── TestRunners.java
-│        │
-│        ├── specbuilder
-│        │     └── SpecBuilder.java
-│        │
-│        ├── stepdefinitions
-│        │     └── UserSteps.java
-│        │
-│        └── utils
-│              ├── ApiClient.java
-│              ├── JsonUtils.java
-│              ├── LoggerUtils.java
-│              └── RetryAnalyzer.java
+│   └── test
+│       └── java
+│           └── com.electrolab.api
+│               │
+│               ├── base
+│               │   ├── ScenarioContext.java
+│               │   └── TestContext.java
+│               │
+│               ├── config
+│               │   ├── ConfigManager.java
+│               │   └── Environment.java
+│               │
+│               ├── hooks
+│               │   └── Hooks.java
+│               │
+│               ├── managers
+│               │   ├── ApiManager.java
+│               │   └── TokenManager.java
+│               │
+│               ├── mock
+│               │   ├── MockServer.java
+│               │   └── UserMock.java
+│               │
+│               ├── models
+│               │   ├── AuthResponse.java
+│               │   └── User.java
+│               │
+│               ├── runners
+│               │   └── TestRunners.java
+│               │
+│               ├── specbuilder
+│               │   └── SpecBuilder.java
+│               │
+│               ├── stepdefinitions
+│               │   └── UserSteps.java
+│               │
+│               └── utils
+│                   ├── ApiClient.java
+│                   ├── JsonUtils.java
+│                   ├── LoggerUtils.java
+│                   └── RetryAnalyzer.java
 │
 └── resources
-      └── features
-            └── user.feature
+    └── features
+        └── user.feature
+
 
 
 ⚙️ Framework Features
