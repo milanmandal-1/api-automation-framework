@@ -134,8 +134,8 @@ Performance testing integration
 👨‍💻 Author
 
 Milan Mandal
-Software Engineer | SDET | API Automation Engineer
-6+ Years Experience in Test Automation
+Software Engineer | SDET | Backend Automation Engineer
+6+ Years Experience in Software Engineering
 
 ⭐ Contribution
 Feel free to fork the repository and submit pull requests to improve the framework.
